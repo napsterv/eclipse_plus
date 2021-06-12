@@ -1,0 +1,51 @@
+<idea-plugin>
+    <id>com.neeeraj.eclipsetheme</id>
+    <name>Eclipse Plus Theme</name>
+    <version>1.2</version>
+    <vendor email="neeraj.v@outlook.com" url="https://github.com/napsterv/eclipse_plus">GitHub</vendor>
+
+    <description><![CDATA[
+      Eclipse Plus Theme
+  <br/><br/>
+  To install:
+  <ul>
+  <li>Go to <i>Settings (Preferences) | Plugins</i>, find the theme plugin and install it</li>
+  <li>Restart IDE</li>
+  <li>Go to <i>Settings (Preferences) | Appearance & Behavior | Appearance</i> and see the <i>Theme</i> dropdown</li>
+  </ul>
+  <br/>
+    ]]></description>
+
+    <change-notes><![CDATA[
+  <b>1.2</b>
+  <ul>
+    <li>Add support for XML</li>
+  </ul>
+  <b>1.1</b>
+  <ul>
+    <li>Add support for .properties files</li>
+  </ul>
+  <b>1.0</b>
+  <ul>
+    <li>Initial Release</li>
+  </ul>
+    ]]>
+    </change-notes>
+
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html for description -->
+    <idea-version since-build="173.0"/>
+
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+        <themeProvider id="ac1371c0-3269-41f2-86c6-7baf6f69552b" path="/Eclipse_Plus.theme.json"/>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+
+</idea-plugin>

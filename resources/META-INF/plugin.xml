@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.neeeraj.eclipsetheme</id>
     <name>Eclipse Plus Theme</name>
-    <version>1.3</version>
+    <version>1.3.1</version>
     <vendor email="neeraj.v@outlook.com" url="https://github.com/napsterv/eclipse_plus">Neeraj Vernekar</vendor>
 
     <description><![CDATA[
@@ -17,6 +17,11 @@
     ]]></description>
 
     <change-notes><![CDATA[
+  <b>1.3.1</b>
+  <ul>
+    <li>Changed editor BG color to avoid glare</li>
+    <li>Change method styling for better appearance</li>
+  </ul>
   <b>1.3</b>
   <ul>
     <li>Corrected Compatibility since</li>

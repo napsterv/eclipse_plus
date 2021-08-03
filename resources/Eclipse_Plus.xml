@@ -48,6 +48,12 @@
     <option name="DEFAULT_DOC_MARKUP">
       <value />
     </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="0" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
         <option name="FOREGROUND" value="252e37" />
@@ -170,6 +176,12 @@
         <option name="FONT_TYPE" value="3" />
       </value>
     </option>
+    <option name="TEXT">
+      <value>
+        <option name="FOREGROUND" value="0" />
+        <option name="BACKGROUND" value="f8f8f8" />
+      </value>
+    </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="ffdf85" />
@@ -217,6 +229,7 @@
     <option name="XML_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="3f7f7f" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
   </attributes>
